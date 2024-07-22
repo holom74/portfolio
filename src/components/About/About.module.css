@@ -1,0 +1,84 @@
+.aboutTitle {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, Arial, sans-serif;
+}
+
+
+.aboutHeading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+  font-family: Playfair Display, Georgia, serif;
+}
+
+.aboutText {
+  margin-bottom: 1.5em;
+  font-family: Quicksand, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000b3;
+}
+
+.services {
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 0 56px -8px #0000002b;
+  border-bottom: 2px solid #2c98f0;
+  padding: 1.5em;
+  height: 150px;
+}
+
+.services .icon i {
+  font-size: 30px;
+  color: #2c98f0;
+  margin-bottom: 20px;
+}
+
+.fa-regular {
+  font-weight: 400;
+}
+
+.services.color-2 .icon i {
+  font-size: 30px;
+  color: #ec5453;
+}
+
+.services.color-2 {
+  border-bottom: 2px solid #ec5453;
+}
+
+.fa-solid {
+  font-weight: 900;
+}
+
+.services.color-3 .icon i {
+  font-size: 30px;
+  color: #f9bf3f;
+
+}
+
+.services.color-3 {
+  border-bottom: 2px solid #f9bf3f;
+}
+
+.services.color-4 {
+  border-bottom: 2px solid #a84cb8;
+}
+
+.services.color-4 .icon2 i {
+  font-size: 30px;
+  color: #a84cb8;
+}

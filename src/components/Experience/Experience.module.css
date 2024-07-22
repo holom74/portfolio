@@ -1,0 +1,115 @@
+.experienceTitle {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, Arial, sans-serif;
+}
+.experienceHeading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+  font-family: Playfair Display, Georgia, serif;
+}
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e9ecef;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline > li::before,
+.timeline > li::after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li::after {
+  clear: both;
+}
+
+.timeline_badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #6c757d;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.timeline_inverted > .timeline_panel {
+  float: right;
+}
+
+.timeline_panel {
+  position: relative;
+  width: 46%;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+  background-color: #fff;
+  border-radius: 2px;
+  text-align: left;
+}
+
+.timeline_panel::before {
+  content: " ";
+  display: inline_block;
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #e9ecef;
+  border-right: 0 solid #e9ecef;
+  border-bottom: 15px solid transparent;
+  border-top-color: inherit;
+}
+
+.timeline_inverted > .timeline_panel::before {
+  right: auto;
+  left: -15px;
+  border-left-width: 0;
+  border-right-width: 15px;
+  border-left-color: transparent;
+  border-right-color: #e9ecef;
+}
+
+.timeline_body {
+  padding: 15px 20px 15px 20px;
+}
+
+.timeline_title {
+  margin-top: 0;
+  color: inherit;
+}
+

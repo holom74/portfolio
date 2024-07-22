@@ -1,0 +1,57 @@
+.workTitle {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: Quicksand, Arial, sans-serif;
+}
+
+.workHeading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+  font-family: Playfair Display, Georgia, serif;
+}
+
+.project {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.img1 {
+  background-image: url(../../assets/images/img-1-C4nS0eD8.jpg);
+}
+
+.img2 {
+  background-image: url(../../assets/images/img-2-D-4H1m4L.jpg);
+}
+
+.img3 {
+  background-image: url(../../assets/images/img-3-pR2ZEVY9.jpg);
+}
+
+.img4 {
+  background-image: url(../../assets/images/img-4-tHccITd-.jpg);
+}
+
+.img5 {
+  background-image: url(../../assets/images/img-5-lAucr__a.jpg);
+}
+
+.img6 {
+  background-image: url(../../assets/images/img-6-DFW03AZ3.jpg);
+}
